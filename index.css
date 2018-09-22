@@ -5,15 +5,16 @@
 
 header{width: 1516px; height: 40px; font-family: 'nanumgothic'; background-color: black;}
 
-header>ul.tp_bar>li>a{display: inline-block; float: right; margin-right: 20px; margin-top: 8px; width: 80px; height: 25px; font-size: 20px;color: black; font-weight: 600; line-height: 25px; background-color: white; border-radius: 13%}
+header>ul.tp_bar>li>a{display: inline-block; float: right; margin-right: 20px; margin-top: 8px; width: 80px; height: 25px; font-size: 20px;color: black; font-weight: 600; line-height: 24px; background-color: white; border-radius: 10%}
 
+p.info{text-align: right; margin-right: 20px; margin-top: 235px; color: rgba(255,255,255,0.6)}
 ul.tp_bar>li>a:hover{color: white; background-color: crimson; }
 
-section{width: 1516px; height: 666px; overflow-y: scroll; border: 1px solid blue;}
+section{width: 1516px; height: 666px; overflow-y: scroll; }
 
 footer{padding-top: 4.2px; width: 1516px; height: 40px; color: rgba(255,255,255,0.6); background-color: black;}
 
-div.mid{height: 684px; text-align: center; line-height: 64px; border: 1px solid green;background-image: url(./images/IMG_6435_Moment_black_3.jpg); background-repeat: no-repeat; background-position: center; background-size: cover }
+div.mid{height: 684px; text-align: center; line-height: 64px; border: 1px solid transparent; background-image: url(./images/IMG_6435_Moment_black_3.jpg); background-repeat: no-repeat; background-position: center; background-size: cover }
 
 div.mid>h1.title{margin-top: 250px; color: white; font-size: 45px; font-weight: 100;}
 div.mid>h2.subtit{color: white; font-size: 45px; font-weight: 100;}
@@ -25,34 +26,53 @@ h2.tit{margin-top: 40px; margin-left: 120px; color: black; font-size: 40px; font
 
 h3.sound_tit{margin-top: 30px; margin-left: 160px; margin-bottom: 50px;color:  crimson; font-size: 37px; font-weight: 100; }
 
-h3.sound_tit+p.desc{font-size: 15px; line-height: 25px; margin-left: 180px; margin-right: 180px;}
+h3.sound_tit+p.desc{font-size: 15px; line-height: 25px; margin-bottom: 30px; margin-left: 180px; margin-right: 180px;}
 
-div.video>h3.video_tit{ margin-top: 30px; margin-bottom: 10px; margin-left: 190px; color: black;font-size: 16px;font-weight: 100;}
 
-video{position:relative ;margin-left: 190px; width: 600px;}
+h3.video_tit{margin-left: 190px; margin-bottom: 12px; color:black; font-size: 17px; font-weight: 100;}
 
-div.audio{ display: inline-block; position: relative; top: -1365px; left: 900px; }
+div.video>div{margin-bottom: 35px;}
 
-div.frst_sec{padding-top:35px; padding-bottom: 25px;padding-left: 100px; margin-bottom: 90px; border: 1px solid transparent;border-left-color: grey;}
+div.block{width: 300px; height: 300px; float: right; margin-right: 200px; padding-left: 95px; border: 1px solid transparent; border-left-color: gray;}
 
-div.sec_sec{padding-top: 35px; padding-bottom: 25px;padding-left: 100px;  margin-bottom: 95px;border: 1px solid transparent;border-left-color: grey;}
+div.block>h4{ margin-top: 42px; margin-bottom: 10px; font-size: 15px; }
 
-div.thrd_sec{margin-bottom: 110px; padding-bottom: 25px; padding-left: 100px; padding-top: 35px; border:1px solid transparent;border-left-color: grey;}
-
-div.four_sec{margin-bottom: 30px; padding-top: 65px;padding-left: 100px;  padding-bottom: 55px;  border:1px solid transparent; border-left-color: grey;}
-
-h4.sam{margin-bottom: 8px; margin-left: 10px;font-size: 15px;}
-
-div.sec_sec>audio{margin-bottom: 20px;}
-div.thrd_sec>audio{margin-bottom: 20px;}
-div.four_sec>audio{margin-bottom: 40px;}
-div.frst_sec>audio{margin-bottom: 20px;}
+video{margin-left: 190px; width: 600px;}
 
 span.hyper>a{font-weight: 800;}
 span.hyper>a:hover{color: crimson;text-decoration: underline; }
 span.tool{color: crimson; font-weight: 800;}
 
 
+div.sam_sketch{margin-left: 190px; margin-top: 0px; padding-top: 40px;}
+
+ div.sam_sketch>h4{display: inline-block;margin-bottom: 30px; padding-top: 170px;padding-left: 10px; padding-right: 80px; width: 280px; height: 180px;   color: black; font-size: 25px; line-height: 29px; font-weight: 100; border: 1px solid transparent; border-right-color: gray; }
+
+
+
+span.red{font-size: 23px; color: crimson;}
+
+
+div.loca{float: right; margin-left: 190px; }
+
+div.audio_1{float: right; margin-right: 195px;  }
+
+div.audio_2{float: right;margin-right: 30px;}
+
+div.audio_1>audio{ margin-bottom: 20px;}
+div.audio_2>audio{ margin-bottom: 20px;}
+
+h5.subtit{font-size: 16px; margin-bottom: 8px;}
+
+p.box{position: relative;display: inline-block;top: -180px; left: 473px; padding-top: 30px; border: 1px solid transparent; border-top-color: gray;}
+p.box>img{width: 150px; margin-right: 5px;}
+
+span.loca_1, span.loca_2, span.loca_3, span.loca_4{font-size: 10px;}
+
+span.loca_1{position: relative;top: -165px; left: -130px;}
+span.loca_2{position: relative;top: -165px; left: -83px;}
+span.loca_3{position: relative;top: -165px; left: -30px;}
+span.loca_4{position: relative;top: -165px; left: 55px;}
 
 
 

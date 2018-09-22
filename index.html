@@ -8,65 +8,6 @@
     <link rel="stylesheet" href="./index.css">
     
     <style>
-        @charset "utf-8"; 
-        @import url(http://ts.daumcdn.net/custom/blog/0/606/skin/images/nanumgothic.css);
-
-        #wrap{ width: 1516px; font-family: '함초롬바탕';}
-
-        header{width: 1516px; height: 40px; font-family: 'nanumgothic'; background-color: black;}
-
-        header>ul.tp_bar>li>a{display: inline-block; float: right; margin-right: 20px; margin-top: 8px; width: 80px; height: 25px; font-size: 20px;color: black; font-weight: 600; line-height: 25px; background-color: white; border-radius: 13%}
-
-        ul.tp_bar>li>a:hover{color: white; background-color: crimson; }
-
-        section{width: 1516px; height: 666px; overflow-y: scroll; border: 1px solid blue;}
-
-        footer{padding-top: 4.2px; width: 1516px; height: 40px; color: rgba(255,255,255,0.6); background-color: black;}
-
-        div.mid{height: 684px; text-align: center; line-height: 64px; border: 1px solid green;background-image: url(./images/IMG_6435_Moment_black_3.jpg); background-repeat: no-repeat; background-position: center; background-size: cover }
-
-        div.mid>h1.title{margin-top: 250px; color: white; font-size: 45px; font-weight: 100;}
-        div.mid>h2.subtit{color: white; font-size: 45px; font-weight: 100;}
-        span.tit_crimson{color: crimson; font-weight: 600; background-color:rgba(0,0,0,0.7);}
-
-        div.sound,div.hobby{margin-left: 10px;text-align: left;}
-
-        h2.tit{margin-top: 40px; margin-left: 120px; color: black; font-size: 40px; font-weight: 100;  text-align: left;}
-
-        h3.sound_tit{margin-top: 30px; margin-left: 160px; margin-bottom: 50px;color:  crimson; font-size: 37px; font-weight: 100; }
-
-        h3.sound_tit+p.desc{font-size: 15px; line-height: 25px; margin-left: 180px; margin-right: 180px;}
-
-        div.video>h3.video_tit{ margin-top: 30px; margin-bottom: 10px; margin-left: 190px; color: black;font-size: 16px;font-weight: 100;}
-
-        video{position:relative ;margin-left: 190px; width: 600px;}
-
-        div.audio{ display: inline-block; position: relative; top: -1365px; left: 900px; }
-
-        div.frst_sec{padding-top:35px; padding-bottom: 25px;padding-left: 100px; margin-bottom: 90px; border: 1px solid transparent;border-left-color: grey;}
-
-        div.sec_sec{padding-top: 35px; padding-bottom: 25px;padding-left: 100px;  margin-bottom: 95px;border: 1px solid transparent;border-left-color: grey;}
-
-        div.thrd_sec{margin-bottom: 110px; padding-bottom: 25px; padding-left: 100px; padding-top: 35px; border:1px solid transparent;border-left-color: grey;}
-
-        div.four_sec{margin-bottom: 30px; padding-top: 65px;padding-left: 100px;  padding-bottom: 55px;  border:1px solid transparent; border-left-color: grey;}
-
-        h4.sam{margin-bottom: 8px; margin-left: 10px;font-size: 15px;}
-
-        div.sec_sec>audio{margin-bottom: 20px;}
-        div.thrd_sec>audio{margin-bottom: 20px;}
-        div.four_sec>audio{margin-bottom: 40px;}
-        div.frst_sec>audio{margin-bottom: 20px;}
-
-        span.hyper>a{font-weight: 800;}
-        span.hyper>a:hover{color: crimson;text-decoration: underline; }
-        span.tool{color: crimson; font-weight: 800;}
-
-
-
-
-
-
         
     </style>
 </head>
@@ -84,6 +25,7 @@
               <div class="mid">
                 <h1 class="title">호랑이는 가죽을 남기고,</h1>
                   <h2 class="subtit">아마추어는 <span class="tit_crimson">'습작'</span>을 남긴다!</h2>
+                  <p class="info">본 콘텐츠는 Chrome 브라우저에 최적화 되어있습니다.</p>
 <!--                <h3 class="subtit"></h3>-->
                 
               </div>
@@ -119,97 +61,106 @@
                       
                      <div class="video">
                        
-                      <h3 class="video_tit">S#1. 오프닝</h3>
-                        <video  preload controls>
-                         <source src = "..... mp4"></video>
-                                                
-                        <h3 class="video_tit">S#2. 가방 장수 아저씨</h3>
-                        <video preload controls>
-                         <source src = "..... mp4"></video>
-                         
-                        <h3 class="video_tit">S#3. 국밥집</h3>
-                        <video  preload controls>
-                         <source src = "..... mp4"></video>
-                         
-                        <h3 class="video_tit">S#4. 엔딩</h3>
-                        <video preload controls>
-                         <source src = "..... mp4"></video>
-                         
-                     </div>
-                     
-                     
-                     
-                     <div class="audio">
-                        <div class="frst_sec">
-                             <h4 class="sam">0. prologue</h4>                         
-                             <audio controls><source src="" type="audio/mp3"></audio>
-                         
-                             <h4 class="sam">1. mp3</h4>                        
-                             <audio controls><source src="" type="audio/mp3"></audio>
-                         </div>
-                         
-                         
-                         <div class="sec_sec">
-                              <h4 class="sam">2. mp3</h4>                         
-                             <audio controls><source src="" type="audio/mp3"></audio>
-                             
+                        <div class="sec_frst">
+                          <h3 class="video_tit">S#1. 오프닝</h3>
+                            <video  preload controls>
+                             <source src = "..... mp4"></video>
+                            
+                            <div class = "block">
+                                <h4 class="sam">0. prologue</h4>                         
+                                 <audio controls><source src="" type="audio/mp3"></audio>
+                            
+                            
+                            
+                                 <h4 class="sam">1. mp3</h4>                        
+                                 <audio controls><source src="" type="audio/mp3"></audio>
+                            </div>
+                         </div>    
+
+                        <div class="sec_sec">
+                            <h3 class="video_tit">S#2. 가방 장수 아저씨</h3>
+                            <video preload controls>
+                             <source src = "..... mp4"></video>
+                            <div class = "block">
+                                <h4 class="sam">2. mp3</h4>                         
+                                 <audio controls><source src="" type="audio/mp3"></audio>
+                            
+                              
+                           
                                <h4 class="sam">3. mp3</h4>                         
-                             <audio controls><source src="" type="audio/mp3"></audio>                         
+                               <audio controls><source src="" type="audio/mp3"></audio>      
+                            </div>    
                          </div>
-     
-                         
-                         <div class="thrd_sec">
-                             <h4 class="sam">4. mp3</h4>                         
-                             <audio controls><source src="" type="audio/mp3"></audio>
-                             
-                             <h4 class="sam">5. mp3</h4>                         
-                             <audio controls><source src="" type="audio/mp3"></audio>
-                         </div>
-                         
-                         
-                         
-                         <div class="four_sec">
-                             <h4 class="sam">6. mp3</h4>                                                       
-                             <audio controls><source src="" type="audio/mp3"></audio>
-                         </div>
+                            
+                        <div class="thrd_sec">    
+                            <h3 class="video_tit">S#3. 국밥집</h3>
+                            <video  preload controls>
+                             <source src = "..... mp4"></video>
+                            
+                            <div class = "block">
+                                <h4 class="sam">4. mp3</h4>                         
+                                 <audio controls><source src="" type="audio/mp3"></audio>
+                            
+                            
+                           
+                                 <h4 class="sam">5. mp3</h4>                         
+                                 <audio controls><source src="" type="audio/mp3"></audio>
+                            </div>    
+                         </div>    
+                        
+                        <div class="four_sec">    
+                            <h3 class="video_tit">S#4. 엔딩</h3>
+                            <video preload controls>
+                             <source src = "..... mp4"></video>
+                            
+                            <div class="block">
+                                 <h4 class="sam">6. mp3</h4>                                                       
+                                 <audio controls><source src="" type="audio/mp3"></audio>
+                            </div>
+                         </div>    
 
                      </div>
-                         
+                     
                      
                     <div class="sam_sketch">
-                        <h4>Samdodong Market_Sketch files</h4>
+                        <h4>
+                        '삼도동 장날풍경' <br>
+                            <span class = "red"> &nbsp;고민의 흔적과 제작 과정-.</span>
+                        </h4>
                         
-                        <div class = "sam_sketch_audio">
-                            <h5 class="subtit"></h5>
-                            <audio controls><source src="" type="audio/mp3"></audio>
-                            
-                            <h5 class="subtit"></h5>
-                            <audio controls><source src="" type="audio/mp3"></audio>
-                            
-                            <h5 class="subtit"></h5>
-                            <audio controls><source src="" type="audio/mp3"></audio>
-                            
-                            <h5 class="subtit"></h5>
-                            <audio controls><source src="" type="audio/mp3"></audio>
+                        <div class = "audio_1">
+                                <h5 class="subtit">Untitled-3</h5>
+                                <audio controls><source src="" type="audio/mp3"></audio>
+
+                                <h5 class="subtit">Untitled-4</h5>
+                                <audio controls><source src="" type="audio/mp3"></audio>
+                        </div>    
+                        
+                        <div class = "audio_2">
+                                <h5 class="subtit">Untitled-1</h5>
+                                <audio controls><source src="" type="audio/mp3"></audio>
+
+                                <h5 class="subtit">Untitled-2</h5>
+                                <audio controls><source src="" type="audio/mp3"></audio>
                         </div>
+                        
+                        <p class="box">
+                            <img src="./images/market_1.jpg" alt="" class="loca">
+
+                            <img src="./images/market_2.jpg" alt="" class="loca">
+
+                            <img src="./images/gooksul.jpg" alt="" class="loca">
+
+                            <img class = "last"src="./images/market_4.jpg" alt="" class="loca">
+                        </p> 
+                        <span  class = "loca_1">[동해 5일장 현장]</span>                        
+                        <span  class = "loca_2">[삼척에서 만난 가방 장수 아저씨]</span>                        
+                        <span  class = "loca_3">[동해 국술집]</span>                        
+                        <span  class = "loca_4">[동해 5일장 앞바다]</span>                        
+                  
+
                     </div>
-                    
-                    <div class="loca">
-                        <h4>Samdodong_location_img</h4>
-                        
-                        <img src="" alt="" class="loca">
-                        <span class="img_desc"></span>
-                        
-                        <img src="" alt="" class="loca">
-                        <span class="img_desc"></span>
-                        
-                        <img src="" alt="" class="loca">
-                        <span class="img_desc"></span>
-                        
-                        <img src="" alt="" class="loca">
-                        <span class="img desc"></span>
-                    </div>
-                  </div>
+          
                   
                   
                   <div class="private">
