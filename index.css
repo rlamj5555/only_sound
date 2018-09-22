@@ -23,18 +23,23 @@ div.sound,div.hobby{margin-left: 10px;text-align: left;}
 
 h2.tit{margin-top: 40px; margin-left: 120px; color: black; font-size: 40px; font-weight: 100;  text-align: left;}
 
-h3.sound_tit{margin-top: 30px; margin-left: 160px; margin-bottom: 50px;color:  crimson; font-size: 28px; font-weight: 100; }
+h3.sound_tit{margin-top: 30px; margin-left: 160px; margin-bottom: 50px;color:  crimson; font-size: 37px; font-weight: 100; }
 
-div.video>h3.video_tit{ margin-top: 30px; margin-bottom: 7px; margin-left: 190px; font-size: 18px;}
+h3.sound_tit+p.desc{font-size: 15px; line-height: 25px; margin-left: 180px; margin-right: 180px;}
+
+div.video>h3.video_tit{ margin-top: 30px; margin-bottom: 10px; margin-left: 190px; color: black;font-size: 16px;font-weight: 100;}
 
 video{position:relative ;margin-left: 190px; width: 600px;}
 
-div.audio{ display: inline-block; position: relative; top: -1380px; left: 900px; }
+div.audio{ display: inline-block; position: relative; top: -1365px; left: 900px; }
 
-div.frst_sec{padding-top:55px; padding-bottom: 45px;padding-left: 100px; margin-bottom: 60px; border: 1px solid transparent;border-left-color: grey;}
-div.sec_sec{padding-top: 60px; padding-bottom: 50px;padding-left: 100px;  margin-bottom: 55px;border: 1px solid transparent;border-left-color: grey;}
-div.thrd_sec{margin-bottom: 55px; padding-bottom: 45px; padding-left: 100px; padding-top: 60px; border:1px solid transparent;border-left-color: grey;}
-div.four_sec{margin-bottom: 30px; padding-top: 90px;padding-left: 100px;  padding-bottom: 90px;  border:1px solid transparent; border-left-color: grey;}
+div.frst_sec{padding-top:35px; padding-bottom: 25px;padding-left: 100px; margin-bottom: 90px; border: 1px solid transparent;border-left-color: grey;}
+
+div.sec_sec{padding-top: 35px; padding-bottom: 25px;padding-left: 100px;  margin-bottom: 95px;border: 1px solid transparent;border-left-color: grey;}
+
+div.thrd_sec{margin-bottom: 110px; padding-bottom: 25px; padding-left: 100px; padding-top: 35px; border:1px solid transparent;border-left-color: grey;}
+
+div.four_sec{margin-bottom: 30px; padding-top: 65px;padding-left: 100px;  padding-bottom: 55px;  border:1px solid transparent; border-left-color: grey;}
 
 h4.sam{margin-bottom: 8px; margin-left: 10px;font-size: 15px;}
 
@@ -43,6 +48,9 @@ div.thrd_sec>audio{margin-bottom: 20px;}
 div.four_sec>audio{margin-bottom: 40px;}
 div.frst_sec>audio{margin-bottom: 20px;}
 
+span.hyper>a{font-weight: 800;}
+span.hyper>a:hover{color: crimson;text-decoration: underline; }
+span.tool{color: crimson; font-weight: 800;}
 
 
 
