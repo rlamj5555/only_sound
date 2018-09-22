@@ -3,6 +3,8 @@
 
 #wrap{ width: 1516px; font-family: '함초롬바탕';}
 
+audio{width: 300px; height: 50px;}
+
 header{width: 1516px; height: 40px; font-family: 'nanumgothic'; background-color: black;}
 
 header>ul.tp_bar>li>a{display: inline-block; float: right; margin-right: 20px; margin-top: 8px; width: 80px; height: 25px; font-size: 20px;color: black; font-weight: 600; line-height: 24px; background-color: white; border-radius: 10%}
@@ -64,15 +66,19 @@ div.audio_2>audio{ margin-bottom: 20px;}
 
 h5.subtit{font-size: 16px; margin-bottom: 8px;}
 
-p.box{position: relative;display: inline-block;top: -180px; left: 473px; padding-top: 30px; border: 1px solid transparent; border-top-color: gray;}
-p.box>img{width: 150px; margin-right: 5px;}
 
-span.loca_1, span.loca_2, span.loca_3, span.loca_4{font-size: 10px;}
+p.box{margin-left: 460px; margin-top: -400px; width: 780px; height: 200px; }
 
-span.loca_1{position: relative;top: -165px; left: -130px;}
-span.loca_2{position: relative;top: -165px; left: -83px;}
-span.loca_3{position: relative;top: -165px; left: -30px;}
-span.loca_4{position: relative;top: -165px; left: 55px;}
+p.box>span{width: 220px;height:160px;  text-align: center; font-size: 20px; line-height: 180px; font-weight: 700; color: transparent;}
+
+span.frst{display:inline-block;background-image: url(images/market_1.jpg); background-position: center; background-size: contain;background-repeat: no-repeat;}
+
+span.thrd{display:inline-block;background-image: url(images/market_4.jpg); background-position: center; background-size: contain;background-repeat: no-repeat;}
+span.four{display:inline-block;background-image: url(images/market_2.jpg); background-position: center; background-size: contain;background-repeat: no-repeat;}
+
+p.box>span:hover{color: white;opacity: 0.7;}
+
+
 
 
 
