@@ -117,4 +117,6 @@ div.record{margin-bottom: 50px;}
 
 footer>span>a>img{position: relative; top: -30px; right: 10px; float: right; width: 30px; height: 30px;}
 
+a.mimic{color: crimson;}
+a.mimic:hover{text-decoration: underline; font-weight: 800;}
 
