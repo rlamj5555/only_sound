@@ -9,7 +9,7 @@ header{width: 1516px; height: 40px; font-family: 'nanumgothic'; background-color
 
 header>ul.tp_bar>li>a{display: inline-block; float: right; margin-right: 20px; margin-top: 8px; width: 80px; height: 25px; font-size: 20px;color: black; font-weight: 600;text-align: center; line-height: 24px; background-color: white; border-radius: 10%}
 
-p.info{text-align: right; margin-right: 20px; margin-top: 235px; color: rgba(255,255,255,0.6)}
+p.info{text-align: right; margin-right: 20px; margin-top: 235px; color: rgba(255,255,255,0.6); line-height: 16px;}
 ul.tp_bar>li>a:hover{color: white; background-color: crimson; }
 
 section{width: 1516px; height: 666px; overflow-y: scroll; }
