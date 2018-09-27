@@ -99,7 +99,22 @@ h3.garage{margin-left: 160px; margin-bottom: 50px; margin-top:30px;  font-size: 
 
 div.hobby>div.garage>p.desc{font-size: 15px; line-height: 25px; margin-bottom: 30px; margin-left: 180px; margin-right: 180px;}
 
-div.garage>audio{width: 300px; height: 70px; margin-bottom: 40px; margin-left: 160px;}
+div.para_frst>div.para_1>h4{font-size: 16px; }
+div.para_sec>div.para_2>h4{font-size: 16px; }
+div.para_frst>div.para_1>h4{ margin-bottom: 10px; margin-left: 10px;}
+div.para_frst>div.para_1>audio{margin-bottom: 20px;}
 
-h4.garage{margin-left: 160px; margin-bottom: -10px; }
+div.para_sec>div.para_2>h4{ margin-bottom: 10px; margin-left: 10px;}
+div.para_sec>div.para_2>audio{margin-bottom: 20px;}
+
+div.para_frst{float: right; margin-right: 400px; padding-left: 150px;height: 370px; border: 1px solid transparent; border-left-color: gray; }
+div.para_sec{margin-left: 180px;}
+
+h3.record{margin-left: 160px; margin-bottom: 30px; margin-top:50px;  font-size: 37px; font-weight: 100; color: crimson;}
+
+div.record>div.para_frst{margin-top:-200px;height: 200px;}
+div.record{margin-bottom: 50px;}
+
+footer>span>a>img{position: relative; top: -30px; right: 10px; float: right; width: 30px; height: 30px;}
+
 
