@@ -26,19 +26,20 @@ div.sound,div.hobby{margin-left: 10px;text-align: left;}
 
 h2.tit{margin-top: 40px; margin-left: 120px; color: black; font-size: 40px; font-weight: 100;  text-align: left;}
 
-h2.sound_tit{margin-top: 30px; margin-left: 160px; margin-bottom: 50px;color:  crimson; font-size: 37px; font-weight: 100; }
+h2.sound_tit{margin-top: 30px; margin-left: 160px; margin-bottom: 50px;color:  crimson; font-size: 37px; font-weight: 100; line-height: 40px;}
 h3.sound_tit{margin-top: 30px; margin-left: 160px; margin-bottom: 40px;color: black; font-size: 30px; font-weight: 100;line-height: 35px; }
+h4.sound_tit{margin-top: 20px; margin-left: 160px; margin-bottom: 10px;color: crimson; font-size: 20px; font-weight: 100;line-height: 22px; }
+
+h4.sound_tit+p.desc{font-size: 15px; line-height: 25px; margin-bottom: 30px; margin-left: 180px; margin-right: 180px;}
 
 h3.sound_tit+p.desc{font-size: 15px; line-height: 25px; margin-bottom: 30px; margin-left: 180px; margin-right: 180px;}
-
-
-
+  
 
 span.red{font-size: 23px; color: crimson;}
 span.under{font-weight: 800;}
+p.desc{font-size: 16px; line-height: 24px;}
 
-
-
+span.space{margin-left: 45px;}
 
 footer>span>a>img{position: relative; top: -30px; right: 10px; float: right; width: 30px; height: 30px;}
 
